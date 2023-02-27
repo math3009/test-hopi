@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="../css/cadastro.css">    
+</head>
+<body>
+    <div id="container">
+
+        <div id="container-logo">
+            <div id="imgPerson">
+                <button> <img src="../imgs/iconPerson.png" alt=""> </button>
+            </div>
+    
+            <div id="logoHopi">
+                <img src="../imgs/logoHopi.png" alt="">
+            </div>
+        </div>
+
+        <div id="container-put">
+            <form id="form-left" action="">
+                <label for="nome">Nome:*</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="email">Email:*</label>
+                <input type="text" id="email" name="email">
+
+                <label for="rg">RG:*</label>
+                <input type="text" id="rg" name="rg">                
+            </form>
+
+            <form id="form-right" action="">
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+
+                <span>Validade:</span>
+                <div id="container-date">
+                    <label for="inicial">Inicial: </label>
+                    <input type="date" id="inicial" name="inicial">
+
+                    <label for="final">Final: </label>
+                    <input type="date" id="final" name="final">
+                </div>                
+            </form>
+
+        </div>
+
+        <div id="container-btn">
+            <button>CADASTRAR</button>
+
+            <button>LISTAR VISITANTE</button>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="../js/cadastro.js"></script>
