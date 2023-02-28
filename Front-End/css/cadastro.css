@@ -21,15 +21,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 150px;
 }
 
 #container-logo #logoHopi img {
-    width: 300px;
+    width: 350px;
 }
 
 
 #container-logo #imgPerson img {
-    width: 100px;
+    width: 150px;
 }
 
 #imgPerson button{
@@ -40,21 +41,31 @@
 
 #container-put{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     width: 100%;
-    height: 100%;    
+    height: 100%;   
+    margin-top: 50px; 
 }
 
 #form-left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
-    
+    justify-content: space;
+    width: 300px;
 }
 
 #form-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+}
+
+#container-date{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+#container-btn{
+    display: flex;
+    justify-content: space-evenly;
 }
