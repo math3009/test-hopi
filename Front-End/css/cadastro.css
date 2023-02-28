@@ -31,12 +31,15 @@
 
 #container-logo #imgPerson img {
     width: 150px;
+    
 }
 
 #imgPerson button{
     outline: none;
     border: none;
     cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 #container-put{
@@ -45,6 +48,25 @@
     width: 100%;
     height: 100%;   
     margin-top: 50px; 
+}
+
+#container-put input{
+    background-color: var(--gray);
+    border-color: transparent;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#container-put input:focus{
+    background-color: var(--gray);
+    border-color: transparent;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#container-put label{
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #form-left{
@@ -62,10 +84,29 @@
 #container-date{
     display: flex;
     flex-direction: row;
-    width: 300px;
 }
+
+
 
 #container-btn{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;     
+    margin-top: 60px;   
+}
+
+#container-btn button{
+    width: 200px;
+    height: 25px;
+    background-color: var(--gray);
+    /* color: var(--gray); */
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+ button:focus {    
+    background-color: gray;
+    
 }

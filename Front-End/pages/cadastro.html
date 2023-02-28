@@ -22,21 +22,21 @@
         </div>
 
         <div id="container-put">
-            <form id="form-left" action="">
+            <form id="form-left" action="" method="post">
                 <label for="nome">Nome:*</label>
                 <input type="text" id="nome" name="nome">
 
                 <label for="email">Email:*</label>
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email">
 
                 <label for="rg">RG:*</label>
-                <input type="text" id="rg" name="rg">                
+                <input type="number" id="rg" name="rg" maxlength="8">                
             </form>
 
-            <form id="form-right" action="">
+            <form id="form-right" action="" method="post">
 
                 <label for="telefone">Telefone:</label>
-                <input type="text" id="telefone" name="telefone">
+                <input type="number" id="telefone" name="telefone">
 
                 <label for="cidade">Cidade:</label>
                 <input type="text" id="cidade" name="cidade">
@@ -54,7 +54,7 @@
         </div>
 
         <div id="container-btn">
-            <button>CADASTRAR</button>
+            <button type="submit" onclick="cadastrar()">CADASTRAR</button>
 
             <button>LISTAR VISITANTE</button>
         </div>
