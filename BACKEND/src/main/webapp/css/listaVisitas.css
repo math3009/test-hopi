@@ -77,9 +77,10 @@
     margin-top: 50px;   
     justify-content: center;
     align-items: center;
+    text-decoration: none
 }
 
-#container-btn button{
+#container-btn a{
     width: 200px;
     height: 25px;
     background-color: var(--gray);
@@ -89,9 +90,7 @@
     border-radius: 3px;
     cursor: pointer;
     font-size: 15px;
+    text-decoration: none
 }
 
-#icons{
-    background-color: red;
-}
 

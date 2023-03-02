@@ -94,7 +94,7 @@
     margin-top: 60px;   
 }
 
-#container-btn button{
+#container-btn input{
     width: 200px;
     height: 25px;
     background-color: var(--gray);
