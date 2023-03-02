@@ -4,4 +4,5 @@
 
 <%
 	int i = UsuarioDao.salvarUsuario(u);
+	response.sendRedirect("listaVisitas.jsp");
 %>
